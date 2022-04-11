@@ -1,10 +1,12 @@
-import Wrapper from '../../styles/Footer.styled';
+import Wrapper from "../../styles/Footer.styled";
 
 const Footer = () => {
   return (
     <Wrapper>
       <div className="footer">
-        <span className="copyrights">copyrights</span>
+        <span className="copyrights">
+          &copy; {new Date().getFullYear()} | react literary awards
+        </span>
       </div>
     </Wrapper>
   );
