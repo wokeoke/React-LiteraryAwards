@@ -5,7 +5,7 @@ const Footer = () => {
     <Wrapper>
       <div className="footer">
         <span className="copyrights">
-          &copy; {new Date().getFullYear()} | react literary awards
+          &copy; {new Date().getFullYear()} | react literary awards..
         </span>
       </div>
     </Wrapper>
